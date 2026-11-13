@@ -10,11 +10,11 @@ _Escribe tus respuestas debajo de cada pregunta._
 
 | Pregunta | Mi respuesta |
 |---|---|
-| ¿Cuántos personajes trae cada página? | |
-| ¿Qué campo me dice si existe una página siguiente? | |
-| ¿Qué valor tiene ese campo en la última página? | |
-| ¿Qué código HTTP devuelve una búsqueda sin resultados? | |
-| ¿Qué campos del personaje usa `CharacterCard`? | |
+| ¿Cuántos personajes trae cada página? | Cada página tiene 20 personajes |
+| ¿Qué campo me dice si existe una página siguiente? | El campo de "next" |
+| ¿Qué valor tiene ese campo en la última página? | Tiene el valor de "null" |
+| ¿Qué código HTTP devuelve una búsqueda sin resultados? | Devuelve 404 Not Found |
+| ¿Qué campos del personaje usa `CharacterCard`? | Usa name, status, species, image |
 
 ## Paso 2 · Petición HTTP
 
